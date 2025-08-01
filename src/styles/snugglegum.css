@@ -1,3 +1,7 @@
 .hervorheben {
   font-weight: bold;
 }
+
+footer p {
+  color: var(--accent-dark);
+}
