@@ -1,3 +1,7 @@
+header nav {
+  min-height: 80px;
+}
+
 .hervorheben {
   font-weight: bold;
 }
