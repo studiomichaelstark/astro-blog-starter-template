@@ -1,3 +1,7 @@
+header {
+  display: none;
+}
+
 header nav {
   min-height: 80px;
 }
