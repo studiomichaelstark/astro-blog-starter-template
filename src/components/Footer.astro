@@ -1,10 +1,15 @@
 ---
 const today = new Date();
+
+import { SITE_TITLE, PRODUCT_DESCRIPTION } from '../consts';
+import {SLOGAN} from '../consts';
+import {BRAND} from '../consts';
+import {VERSION} from '../consts';
 ---
 
 <footer>
-	<p>&copy; {today.getFullYear()} <strong>Snugglegum™</strong> — Engineered to make you gum.<br>
-	Liquid-filled functional chew packed with Zink.<br>All rights reserved.</p>
+	<p>&copy; {today.getFullYear()} <strong>{BRAND}</strong> — {SLOGAN}<br>
+	{PRODUCT_DESCRIPTION}<br>All rights reserved. V. {VERSION}</p>
 
 </footer>
 <style>

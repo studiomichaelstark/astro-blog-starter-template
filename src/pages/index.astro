@@ -3,6 +3,10 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { SITE_TITLE, PRODUCT_DESCRIPTION } from '../consts';
+import { SITE_TITLE, SLOGAN } from '../consts';
+import { SITE_TITLE, BRAND } from '../consts';
+
 ---
 
 <!doctype html>
@@ -13,8 +17,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header />
 		<main>
-			<h1>Snugglegum™ — Engineered to make you gum.</h1>
-			<p>A liquid-filled functional chew loaded with Zinc — <strong>build to boost your 🍆 load</strong>.</p>
+			<h1>{BRAND} — {SLOGAN}</h1>
+			<p>{PRODUCT_DESCRIPTION}<br>
+			<span>Build to boost your 🍆 load</span>. Engineered to make you gum 😘.</p>
 		</main>
 		<Footer />
 	</body>

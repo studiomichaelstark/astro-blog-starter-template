@@ -10,6 +10,10 @@ header nav {
   font-weight: bold;
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
+
 footer p {
   color: var(--accent-dark);
 }
